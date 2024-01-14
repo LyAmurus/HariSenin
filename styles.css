@@ -1,0 +1,225 @@
+/* styles.css */
+
+body {
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  .bg-cover {
+    background-size: cover;
+  }
+  
+  .bg-fixed {
+    background-attachment: fixed;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .no-underline {
+    text-decoration: none;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .text-5xl {
+    font-size: 3rem;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
+  .opacity-75 {
+    opacity: 0.75;
+  }
+  
+  .leading-tight {
+    line-height: 1.25;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .leading-normal {
+    line-height: 1.5;
+  }
+  
+  .text-base {
+    font-size: 1.125rem;
+  }
+  
+  .text-blue-300 {
+    color: #93c5fd;
+  }
+  
+  .hover\:text-pink-500:hover {
+    color: #d53f8c;
+  }
+  
+  .hover\:text-underline:hover {
+    text-decoration: underline;
+  }
+  
+  .h-10 {
+    height: 2.5rem;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .md\:h-auto {
+    height: auto;
+  }
+  
+  .md\:p-4 {
+    padding: 1rem;
+  }
+  
+  .transform {
+    transform: none;
+  }
+  
+  .hover\:scale-125:hover {
+    transform: scale(1.25);
+  }
+  
+  .duration-300 {
+    transition-duration: 0.3s;
+  }
+  
+  .ease-in-out {
+    transition-timing-function: ease-in-out;
+  }
+  
+  .bg-clip-text {
+    background-clip: text;
+  }
+  
+  .bg-gradient-to-r {
+    background-image: linear-gradient(to right, #68d391, #f687b3);
+  }
+  
+  .from-green-400 {
+    --tw-gradient-from: #68d391;
+  }
+  
+  .via-pink-500 {
+    --tw-gradient-stops: #f687b3;
+  }
+  
+  .to-purple-500 {
+    --tw-gradient-to: #9f7aea;
+  }
+  
+  .w-1/2 {
+    width: 50%;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .xl\:w-2/5 {
+    width: 40%;
+  }
+  
+  .md\:pt-36 {
+    padding-top: 9rem;
+  }
+  
+  .overflow-y-hidden {
+    overflow-y: hidden;
+  }
+  
+  .w-2/5 {
+    width: 40%;
+  }
+  
+  .xl\:w-3/5 {
+    width: 60%;
+  }
+  
+  .p-12 {
+    padding: 3rem;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .w-4/5 {
+    width: 80%;
+  }
+  
+  .-rotate-6 {
+    transform: rotate(-6deg);
+  }
+  
+  .hover\:rotate-6:hover {
+    transform: rotate(6deg);
+  }
+  
+  .pt-16 {
+    padding-top: 4rem;
+  }
+  
+  .pb-6 {
+    padding-bottom: 1.5rem;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn ease-in-out 1;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Add more styles as needed */
+  

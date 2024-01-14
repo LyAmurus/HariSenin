@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rainblur Landing Page Template: Tailwind Toolbox</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css" rel="stylesheet" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+      html {
+        font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      }
+    </style>
+  </head>
+  
+
+  <body class="leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed" style="background-image: url('furina.jpeg');">
+    <div class="h-full">
+      <!--Nav-->
+      <div class="w-full container mx-auto">
+        <div class="w-full flex items-center justify-between">
+          <a class="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+            Furina<span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500"></span>
+          </a>
+
+          <div class="flex w-1/2 justify-end content-center">
+            <a class="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out" href="https://github.com/LyAmurus">
+                <svg class="fill-current h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <!-- GitHub icon path -->
+                  <path
+                    d="M16 0C7.164 0 0 7.164 0 16c0 7.08 4.584 13.07 10.942 15.18.8.146 1.092-.347 1.092-.77 0-.38-.014-1.64-.023-2.978-4.448.967-5.374-2.14-5.374-2.14-.726-1.848-1.774-2.337-1.774-2.337-1.448-.992.11-.972.11-.972 1.604.112 2.448 1.648 2.448 1.648 1.424 2.44 3.732 1.736 4.63 1.328.144-.996.556-1.672 1.012-2.056-3.552-.4-7.28-1.776-7.28-7.872 0-1.736.62-3.152 1.648-4.264-.164-.4-.716-2.016.156-4.2 0 0 1.332-.424 4.36 1.632a14.85 14.85 0 0 1 3.936-.536c1.34.004 2.688.18 3.936.536 3.028-2.056 4.36-1.632 4.36-1.632.872 1.056.32 2.784.16 3.184 1 1.112 1.64 2.528 1.64 4.264 0 6.112-3.736 7.464-7.296 7.856.576.488 1.088 1.456 1.088 2.944 0 2.12-.016 3.824-.016 4.336 0 .428.288.92 1.104.764C27.416 29.07 32 23.08 32 16 32 7.164 24.836 0 16 0"
+                  ></path>
+                ></path>
+              </svg>
+            </a>
+            <a
+              class="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+              href="https://www.facebook.com/sharer/sharer.php?u=#"
+            >
+              <svg class="fill-current h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                <path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--Main-->
+      <div class="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <!--Left Col-->
+        <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
+          <h1 class="my- text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
+            Main
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
+            Furina De Fontaine
+          </h1>
+          <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left">
+            SFurina is the first playable Archon who lose her divinity and become human, also the first one that cannot use power on her own and rely on Vision.
+          </p>
+
+          <form class="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
+            <div class="mb-4">
+              <label class="block text-blue-300 py-2 font-bold mb-2" for="emailaddress">
+                Signup for our newsletter
+              </label>
+              <input
+                class="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                id="emailaddress"
+                type="text"
+                placeholder="you@somewhere.com"
+              />
+            </div>
+
+            <div class="flex items-center justify-between pt-4">
+              <button
+                class="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                type="button"
+              >
+                Sign Up
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!--Right Col-->
+        <div class="w-full xl:w-3/5 p-12 overflow-hidden">
+          <img class="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="img/furina.jpeg" />
+        </div>
+
+        <div class="mx-auto md:pt-16">
+          <p class="text-blue-400 font-bold pb-8 lg:pb-6 text-center">
+            Picture
+          </p>
+          <div class="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
+            <img src="img/funeu.jpg" class="h-12 pr-12 transform hover:scale-125 duration-300 ease-in-out" />
+            <img src="img/1341475.jpeg" class="h-12 transform hover:scale-125 duration-300 ease-in-out" />
+          </div>
+        </div>
+
+        <!--Footer-->
+        <div class="w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
+          <a class="text-gray-500 no-underline hover:no-underline" href="https://github.com/LyAmurus"</a>LyAmurus</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
